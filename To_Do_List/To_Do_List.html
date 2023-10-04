@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TO_DO_LIST</title>
+
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+  
+<header>
+	<h1>Task Lists....</h1>
+	<form id="form">
+		<input type="text" id="input" placeholder="Enter New Task here...">
+		<input type="submit" id="submit" value="Add">
+	</form>
+</header>
+
+<main>
+
+	<section class="task-list">
+		<h2>Tasks</h2>
+
+		<div id="tasks">
+			<div class="task">
+				<div class="content">
+					<input type="text" class="text" value="Its My Default Task...." 
+					style="font-family: monospace;" readonly>
+				</div>
+				<div class="actions">
+					<button class="edit">Edit</button>
+					<button class="delete">Delete</button>
+				</div>
+			</div>
+			
+		</div>
+		
+	</section>
+</main>	
+
+
+	<script src="Script.js"></script>
+
+</body>
+</html>
